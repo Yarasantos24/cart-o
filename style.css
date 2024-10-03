@@ -1,0 +1,36 @@
+:root {
+    --text-color:#DDA0DD;
+    --card-front-color:#DA70D6;
+    --card-back-color:#EE82EE;
+    }
+
+    body {
+    background-color: url("img/bg-desktop.webp");
+    font-family: Bai jamjuree;
+    }
+
+    #container {
+     display: flex
+     flex-wrap: wrap;
+     justify-content: space-between;
+     padding: 4rem;
+     gap: 3rem;
+    }
+
+    .cartao {
+    margin: 1rem 1rem;
+    height: 20rem;
+    flex-grow: 1;
+    flex-basis: calc(33% - 6rem);
+    }
+
+    .cartao__conteudo h3 {
+     background-color: var(--card-front-color);
+     text-align: center;
+     /*background-color: aquamarine; */
+     height: 100%;
+     transform-style: preserve-3d;
+     transition: transform 300ms ease-in-out;
+    }s
+
+
