@@ -9,10 +9,10 @@
     font-family: Bai jamjuree;
     }
 
-    #container {
+    #container{
      display: flex
-     flex-wrap: wrap;
-     justify-content: space-between;
+     flex-wrap; wrap:
+     justify-content; space-between;
      padding: 4rem;
      gap: 3rem;
     }
@@ -31,6 +31,96 @@
      height: 100%;
      transform-style: preserve-3d;
      transition: transform 300ms ease-in-out;
-    }s
+
+    }
+    .cartao__conteudo h3 {
+    color: var(--text-color);
+    border: 1px solid var(--var-color);
+    text-align: left;
+    padding: 0.6rem;
+    border-radius: 0.6rem;
+    border-radius: 0.6rem;
+    font-size: 1vw;
+    backface-visibility: hidden;
+    }
+
+
+    .cartao_conteudo p {
+        margin-top: 1rem;
+        padding:2rem;
+        margin-top: 4rem;
+        font-size: 1.4vw;
+    }
+    #container {
+
+    .cartao__conteudo__pergunta p {
+     Color: var(--text-color);
+     font-weight: 500;
+     }
+
+     .cartao__conteudo__pergunta p {
+        color: var(--color-back-cplor);
+        font-weight: 700;
+        }
+
+    .cartao.active .cartao__conteudo {
+        transform: rotateY(180deg);
+    }
+
+    .caratao__conteudo__pergunta,
+    .cartao__conteudo__resposta {
+       backface-visibility: hidden;
+       position: absolute;
+       height: 110%
+       width: 100%
+       box-sizing: border-box;
+    }
+
+    .cartao__conteudo__resposta {
+        transform: rotateY(180deg);
+        background-color: #9370DB rgba(0,244,198,0.2);
+        border: 4px solid var(--card-back-color);
+        }
+
+        footer {
+                background-color:  black;
+                color: white;
+                position: fixed;
+                bottom: 0;
+                width: 100%;
+                height: 2rem;
+                }
+
+        footer p {
+            text-align: center;
+            font-size: 0.6rem;
+            margin-top: 0.5rem;
+            }  
+            
+    @media (max-width: 560px) {
+        body {
+            background: url('img/bg-mobile.webp'), no-repeat cover
+            } 
+    
+
+     .cartao {
+          flex: 1 0 calc(100% - 1rem)
+          }
+
+    .cartao {
+        font-size: 3vw;
+        }
+
+        .cartao__conteudo p {
+            font-size: 3.8vw;
+            }
+    }
+        
+
+    
+
+    
+
+        
 
 
